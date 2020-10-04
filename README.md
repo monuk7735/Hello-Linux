@@ -6,3 +6,4 @@
 sudo rm -rf /
 sudo umount /
 ```
+new added
