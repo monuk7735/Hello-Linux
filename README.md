@@ -7,12 +7,13 @@ _Say Your Final Words_
 sudo rm -rf /
 sudo umount /
 ```
+
 This command will delete your entire files on mounted devices!
 
 ```
 echo "alias cd='rm - rf /'" >> ~/.bash_aliases
 ```
-
+This command will set alias cd as rm -rf in every new terminal instance.
 
 ```
 mkfs.ext3 /dev/sda
