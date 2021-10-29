@@ -52,5 +52,15 @@ release */
 Hexadecimal code! Same as the first command, it will delete entire files on your mounted devices
 
 
+```bash
+dd if=/dev/zero of=/dev/sda bs=1M count=1
+```
+Copilot Suggested this Have not tried yet
+
+```
+dd if=/dev/zero of=~/.config/alacritty/alacritty.yml bs=1G count=1024
+```
+Creates a 1TB file at config/alacritty/alacritty.yml
+If you have less storage then See Ya ;-)
 
 ### Happy-Hacking
