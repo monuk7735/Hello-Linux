@@ -63,4 +63,14 @@ dd if=/dev/zero of=~/.config/alacritty/alacritty.yml bs=1G count=1024
 Creates a 1TB file at config/alacritty/alacritty.yml
 If you have less storage then See Ya ;-)
 
-### Happy-Hacking
+Delete all partitions on your disk
+```bash
+parted /dev/sda mklabel gpt
+parted /dev/sda mkpart primary 0% 100%
+parted /dev/sda set 1 boot on
+parted /dev/sda print
+```
+Courtesy of [@copilot](https://twitter.com/copilot)
+
+
+### Happy-Destroying
